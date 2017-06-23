@@ -56,9 +56,7 @@ class player:
 			pos = [pos[0]+1, pos[1]]
 
 		self.pos = pos
-		
 
-	# draw the snake
 	def draw(self):
 		self.surface.blit(self.playerblock, (self.pos[0]*self.bs, self.pos[1]*self.bs))
 		self.surface.blit(self.playerblockdark,(self.pos[0]*self.bs+1, self.pos[1]*self.bs+1))
