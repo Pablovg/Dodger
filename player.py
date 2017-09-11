@@ -41,7 +41,6 @@ class player:
 	
 	def move(self, move):
 		pos = self.getPos()
-
 		self.surface.blit(self.blackblock,(pos[0]*self.bs, pos[1]*self.bs))
 		self.direction = move
 
